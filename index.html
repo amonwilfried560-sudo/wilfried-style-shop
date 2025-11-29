@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilfried Style Shop — Vêtements & Chaussures hommes à Abidjan</title>
+  <meta name="description" content="Boutique en ligne pour hommes à Abidjan. Tee-shirts, joggers, pulls, mocassins, sandales, Air Force. Livraison rapide, paiement à la livraison." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Wilfried Style Shop" class="logo" />
+        <div>
+          <h1>Wilfried Style Shop</h1>
+          <p class="tagline">Votre style, notre priorité ✨</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#catalogue">Catalogue</a>
+        <a href="#infos">Infos</a>
+        <a href="#contact" class="btn btn--whatsapp">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h2>Vêtements & chaussures pour hommes — Abidjan</h2>
+        <p>
+          Tee-shirts • Pulls • Shorts • Joggers • Chaussures • Mocassins • Sandales • Air Force
+        </p>
+        <ul class="hero__benefits">
+          <li>✔️ Produits de qualité</li>
+          <li>✔️ Petits prix</li>
+          <li>✔️ Livraison rapide partout à Abidjan</li>
+          <li>✔️ Paiement à la livraison</li>
+        </ul>
+        <div class="hero__cta">
+          <a href="https://wa.me/2250778293874" class="btn btn--primary">Commander sur WhatsApp</a>
+          <a href="#catalogue" class="btn btn--ghost">Voir le catalogue</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="assets/cover.jpg" alt="Sélection d'articles Wilfried Style Shop">
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalogue -->
+  <section id="catalogue" class="catalogue">
+    <div class="container">
+      <div class="section__header">
+        <h3>Catalogue</h3>
+        <p>Livraison 1–2h à Abidjan. Paiement à la livraison.</p>
+      </div>
+
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Rechercher un produit..." />
+        <select id="categorySelect">
+          <option value="all">Toutes catégories</option>
+          <option value="vetements">Vêtements</option>
+          <option value="chaussures">Chaussures</option>
+        </select>
+        <select id="sortSelect">
+          <option value="default">Tri par défaut</option>
+          <option value="priceAsc">Prix croissant</option>
+          <option value="priceDesc">Prix décroissant</option>
+        </select>
+      </div>
+
+      <div id="productGrid" class="grid"></div>
+
+      <div class="section__cta">
+        <a href="https://wa.me/2250778293874" class="btn btn--primary">Parler à un conseiller</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Infos -->
+  <section id="infos" class="infos">
+    <div class="container">
+      <div class="section__header">
+        <h3>Informations</h3>
+      </div>
+      <div class="info__grid">
+        <div class="card">
+          <h4>À propos</h4>
+          <p>
+            Bienvenue chez <strong>Wilfried Style Shop</strong>, boutique en ligne spécialisée dans les vêtements et chaussures pour hommes à Abidjan.
+          </p>
+          <p>
+            Nous proposons des articles tendance, de qualité, à prix accessible, avec une livraison rapide partout à Abidjan.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Services</h4>
+          <ul class="list">
+            <li>✔️ Livraison express 1–2h</li>
+            <li>✔️ Paiement à la livraison</li>
+            <li>✔️ Conseils style personnalisés</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Coordonnées</h4>
+          <ul class="contact">
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/2250778293874">0778293874</a></li>
+            <li><strong>Adresse:</strong> Adjamé, Abidjan</li>
+            <li><strong>Email:</strong> <a href="mailto:wilfriedstyleshop@gmail.com">wilfriedstyleshop@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section id="contact" class="contactcta">
+    <div class="container contactcta__inner">
+      <div>
+        <h3>Besoin d’un article maintenant ?</h3>
+        <p>Envoie un message et reçois ton produit rapidement. Réponse en quelques minutes.</p>
+      </div>
+      <a href="https://wa.me/2250778293874" class="btn btn--whatsapp btn--lg">WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="Wilfried Style Shop" class="logo logo--sm" />
+        <div>
+          <strong>Wilfried Style Shop</strong>
+          <p>Votre style, notre priorité ✨</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="#catalogue">Catalogue</a>
+        <a href="#infos">Infos</a>
+        <a href="https://wa.me/2250778293874">WhatsApp</a>
+      </div>
+      <div class="footer__legal">
+        <p>© <span id="year"></span> Wilfried Style Shop — Abidjan, Côte d’Ivoire</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
